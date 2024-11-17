@@ -1,0 +1,52 @@
+2024-11-16 15:59:04.781 JST [99352] LOG:  starting PostgreSQL 14.14 (Homebrew) on aarch64-apple-darwin24.1.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.4), 64-bit
+2024-11-16 15:59:04.783 JST [99352] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-11-16 15:59:04.783 JST [99352] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-16 15:59:04.783 JST [99352] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-16 15:59:04.783 JST [99352] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-16 15:59:04.783 JST [99352] WARNING:  could not create listen socket for "localhost"
+2024-11-16 15:59:04.783 JST [99352] FATAL:  could not create any TCP/IP sockets
+2024-11-16 15:59:04.783 JST [99352] LOG:  database system is shut down
+2024-11-16 15:59:08.755 JST [99421] LOG:  starting PostgreSQL 14.14 (Homebrew) on aarch64-apple-darwin24.1.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.4), 64-bit
+2024-11-16 15:59:08.757 JST [99421] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-11-16 15:59:08.757 JST [99421] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-16 15:59:08.757 JST [99421] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-16 15:59:08.757 JST [99421] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-16 15:59:08.757 JST [99421] WARNING:  could not create listen socket for "localhost"
+2024-11-16 15:59:08.757 JST [99421] FATAL:  could not create any TCP/IP sockets
+2024-11-16 15:59:08.757 JST [99421] LOG:  database system is shut down
+2024-11-16 16:06:58.115 JST [841] LOG:  starting PostgreSQL 14.14 (Homebrew) on aarch64-apple-darwin24.1.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.4), 64-bit
+2024-11-16 16:06:58.117 JST [841] LOG:  listening on IPv6 address "::1", port 5432
+2024-11-16 16:06:58.117 JST [841] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-11-16 16:06:58.117 JST [841] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-11-16 16:06:58.119 JST [842] LOG:  database system was shut down at 2024-11-16 16:06:40 JST
+2024-11-16 16:06:58.120 JST [842] LOG:  WAL file is from different database system: WAL file database system identifier is 7437767773681025903, pg_control database system identifier is 7437763984698607327
+2024-11-16 16:06:58.120 JST [842] LOG:  invalid primary checkpoint record
+2024-11-16 16:06:58.120 JST [842] PANIC:  could not locate a valid checkpoint record
+2024-11-16 16:06:58.120 JST [841] LOG:  startup process (PID 842) was terminated by signal 6: Abort trap: 6
+2024-11-16 16:06:58.120 JST [841] LOG:  aborting startup due to startup process failure
+2024-11-16 16:06:58.120 JST [841] LOG:  database system is shut down
+2024-11-16 16:07:05.403 JST [916] LOG:  starting PostgreSQL 14.14 (Homebrew) on aarch64-apple-darwin24.1.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.4), 64-bit
+2024-11-16 16:07:05.405 JST [916] LOG:  listening on IPv6 address "::1", port 5432
+2024-11-16 16:07:05.405 JST [916] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-11-16 16:07:05.405 JST [916] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-11-16 16:07:05.407 JST [917] LOG:  database system was shut down at 2024-11-16 16:06:40 JST
+2024-11-16 16:07:05.407 JST [917] LOG:  WAL file is from different database system: WAL file database system identifier is 7437767773681025903, pg_control database system identifier is 7437763984698607327
+2024-11-16 16:07:05.407 JST [917] LOG:  invalid primary checkpoint record
+2024-11-16 16:07:05.407 JST [917] PANIC:  could not locate a valid checkpoint record
+2024-11-16 16:07:05.407 JST [916] LOG:  startup process (PID 917) was terminated by signal 6: Abort trap: 6
+2024-11-16 16:07:05.407 JST [916] LOG:  aborting startup due to startup process failure
+2024-11-16 16:07:05.407 JST [916] LOG:  database system is shut down
+2024-11-16 16:09:59.757 JST [1465] LOG:  starting PostgreSQL 14.14 (Homebrew) on aarch64-apple-darwin24.1.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.4), 64-bit
+2024-11-16 16:09:59.759 JST [1465] LOG:  listening on IPv6 address "::1", port 5432
+2024-11-16 16:09:59.759 JST [1465] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-11-16 16:09:59.760 JST [1465] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-11-16 16:09:59.762 JST [1466] LOG:  database system was shut down at 2024-11-16 16:09:47 JST
+2024-11-16 16:09:59.764 JST [1465] LOG:  database system is ready to accept connections
+2024-11-16 16:12:01.310 JST [1613] ERROR:  syntax error at or near "create" at character 27
+2024-11-16 16:12:01.310 JST [1613] STATEMENT:  create database sorafm_db
+	create database sorafm_db;
+2024-11-16 16:35:52.207 JST [1465] LOG:  received fast shutdown request
+2024-11-16 16:35:52.208 JST [1465] LOG:  aborting any active transactions
+2024-11-16 16:35:52.209 JST [1465] LOG:  background worker "logical replication launcher" (PID 1472) exited with exit code 1
+2024-11-16 16:35:52.209 JST [1467] LOG:  shutting down
+2024-11-16 16:35:52.216 JST [1465] LOG:  database system is shut down
